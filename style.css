@@ -1,0 +1,100 @@
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+border: 1px solid black;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.app-container{
+    height: 2000px;
+}
+.app-cards{
+    height: calc(100% / 5);
+    width: 70%;
+    margin: 30px 0 5px 0;
+}
+.border{
+    border-radius: 1.3rem;
+}
+.bg-blue{
+    background-color: #0084FD;
+}
+.jumbo{
+    height: 1000px;
+}
+.bg-violet{
+    background-color: #9792E4;
+}
+.jumbo-1{
+    height: 50%;
+    width: 80%;
+}
+.jumbo-2{
+    height: 50%;
+    width: 80%;
+    background-color: white;
+    margin-bottom: 30px;
+    margin: 15px 0 20px 0;
+}
+.testimonials{
+    height: 2000px;
+}
+.testimonials-title{
+    height: 400px;
+    background-color: blue;
+    width: 80%;
+    
+}
+.testimonials-card{
+    height: calc(100% / 3);
+    width: 80%;
+    margin-top: 20px;
+}
+.work-with-us-container{
+    height: 2600px;
+}
+.last-cards{
+    height: calc(100% / 6);
+    width: 80%;
+    background-color: white;
+    margin: 20px 0 30px 0;
+}
+.about-us{
+    height: 1000px;
+}
+.about-us p{
+    line-height: 40px;
+    font-size: 20px;
+}
+img{
+    width: 50%;
+}
+.pre-footer{
+    height: 600px;
+}
+.get-started{
+    height: 90%;
+    background-color: white;
+    width: 90%;
+}
+footer{
+    height: 200px;
+    background-color: #333333;
+    color: white;
+    line-height: 20px;
+ }
+footer p:nth-child(2){
+    margin-top: 40px;
+} 
