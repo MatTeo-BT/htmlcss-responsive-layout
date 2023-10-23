@@ -20,24 +20,47 @@ border: 1px solid black;
 h1{
     text-align: center;
 }
-.app-container{
+/* .app-container{
     height: 2000px;
-}
+} */
 .first-app-cards{
-    height: 700px;
-    width: 70%;
+    width: calc(100% / 3 *2);
     margin-top: 20px;
+    
 }
 .app-cards{
-    height: 300px;
+   
     width: 70%;
     margin: 30px 0 5px 0;
+}
+.first-app-cards img{
+    width: 60%;
+    height: 60%;
+}
+.app-container div i{
+    font-size: 90px;
+    padding: 20px;
+}
+.app-container div {
+    line-height: 30px;
+    text-align: center;
 }
 .border{
     border-radius: 1.3rem;
 }
+.download-button{
+    padding: 15px;
+    color: white;
+    border-radius: 1.5rem;
+}
 .bg-blue{
     background-color: #0084FD;
+}
+.bg-light-blue{
+    background-color: #B5DEFF;
+}
+.blue{
+    color: #0084FD;
 }
 .jumbo{
     height: 1000px;
@@ -136,10 +159,8 @@ footer p:nth-child(2){
     }
     .last-cards{
         height: calc(100% / 6);
-        width: 40%;
+        width: 30%;
     }
-    .work-with-us-container h1{
-        display: ;
-    }
+   
     
 }
