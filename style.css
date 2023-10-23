@@ -29,7 +29,6 @@ h1{
     
 }
 .app-cards{
-   
     width: 70%;
     margin: 30px 0 5px 0;
 }
@@ -44,6 +43,9 @@ h1{
 .app-container div {
     line-height: 30px;
     text-align: center;
+}
+.line-height{
+    line-height: 30px;
 }
 .border{
     border-radius: 1.3rem;
@@ -62,14 +64,19 @@ h1{
 .blue{
     color: #0084FD;
 }
-.jumbo{
-    height: 1000px;
+.violet{
+    color: #9792E4;
 }
+/* .jumbo{
+    height: 1000px;
+} */
 .bg-violet{
     background-color: #9792E4;
 }
+.jumbo div img{
+    width: 100%;
+}
 .jumbo-1{
-    height: 50%;
     width: 80%;
 }
 .jumbo-2{
@@ -78,6 +85,10 @@ h1{
     background-color: white;
     margin-bottom: 30px;
     margin: 15px 0 20px 0;
+}
+.jumbo-2 i{
+    font-size: 30px;
+    background-color: #9792E4;
 }
 .testimonials{
     height: 2000px;
@@ -95,6 +106,10 @@ h1{
     height: calc(100% / 3);
     width: 80%;
     margin-top: 20px;
+}
+.testimonials article img{
+    width: 100%;
+    height: 50%;
 }
 .work-with-us-container{
     height: 2600px;
