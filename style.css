@@ -111,14 +111,19 @@ h1{
     width: 100%;
     height: 50%;
 }
-.work-with-us-container{
+/* .work-with-us-container{
     height: 2600px;
-}
+} */
 .last-cards{
     height: calc(100% / 6);
     width: 80%;
     background-color: white;
     margin: 20px 0 30px 0;
+}
+.more-button{
+    padding: 10px 45px;
+    color: white;
+    border-radius: 2rem;
 }
 .about-us{
     height: 1000px;
@@ -135,7 +140,6 @@ h1{
 }
 .get-started{
     height: 90%;
-    background-color: white;
     width: 90%;
 }
 footer{
@@ -143,6 +147,13 @@ footer{
     background-color: #333333;
     color: white;
     line-height: 20px;
+ }
+ .footer-button{
+    background-color: white;
+    color: #9792E4;
+    border-radius: 2rem;
+    padding: 20px 80px;
+
  }
 footer p:nth-child(2){
     margin-top: 40px;
